@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background: lightgray;
+
+            font-family:  Helvetica;
+
+            width: 1000px auto;
+            margin: 1px auto;
+            padding: 5px;
+            border-top:  3px solid black;
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+        }
+
+        #pagarCuotas, #contenidoCarrito, #titulo{
+            width: 190px ;
+            margin: 2px;
+            border: 3px solid black;
+            background-color: lightblue; 
+            text-align: center;
+        }
+
+        #contenidoCarrito{
+            min-height: 525px;
+        }
+
+        #carrito {
+            float: right;
+        }
+
+        #precioCarrito{
+            background-color: red;
+            height: 20px;
+            width: 80% ;
+            border: 2px solid black;
+            color: white; 
+            text-align: center;
+        }
+
+        .listaDeProducto{
+            border: 1px solid black ;
+            background-color: grey;
+            color: white;
+            text-align: right;
+            width: 23% ;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 2px;
+        }
+
+        .botonAgregar{
+            background-color: lightblue;
+            margin-left: 5px ;
+            margin-right: 5px;
+            margin-top: 1px;
+            margin-bottom: 1px ;
+            border-radius: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            cursor: pointer;
+        }
+
+        .botonQuitar{
+            background-color: rgb(245, 82, 82);
+            margin-right: 5px;
+            border-radius: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            cursor: pointer;
+        }
+        
+        #pagarCarrito{
+            background-color: lightblue;
+        }
+        
+        #textoPagarCarrito{
+            font-size: small;
+        }
+        
+        #calcularCuotas{
+            background-color: grey;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #cantidadDeCuotas{
+            background-color: grey;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #pagarCarrito{
+            background-color: grey;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            font-size: larger;
+        };
+
+
+    </style>
+</head>
+
+<body>
+
+    <div id="carrito">
+        <div>
+            <h3 id="titulo">Carrito</h3>
+            <h5 id="precioCarrito"> </h5>
+        </div>
+        
+        <div id="contenidoCarrito"> </div>
+    
+    <div id="pagarCuotas">
+        <div id="pagarCarrito">
+    
+            <button id="pagarCarrito">PAGAR CARRITO</button>
+    
+        </div>
+    
+        <div id="cuotas" style="display: none; ">
+            <div id="textoPagarCarrito">
+                <h5>Ingrese la cantidad de cuotas</h1>
+            </div>
+            <input id="cantidadDeCuotas" type="number" min="1" max="18">
+            <button id="calcularCuotas">CALCULAR</button>
+    
+        </div>
+    </div>
+    </div>
+   
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./ProyectoFinal.JS"></script>
+</body>
+</html>

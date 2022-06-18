@@ -1,0 +1,23 @@
+
+[
+    {"id": 1, "producto": "Auriculares", "precio": 8000},
+    {"id": 2, "producto": "Gabinetes", "precio": 10000},
+    {"id": 3, "producto": "Discos duros", "precio": 5000},
+    {"id": 4, "producto": "Procesadores", "precio": 30000},
+    {"id": 5, "producto": "Placas graficas", "precio": 60000},
+    {"id": 6, "producto": "Teclados", "precio": 7000},
+    {"id": 7, "producto": "Placas madre", "precio": 9000},
+    {"id": 8, "producto": "Monitores", "precio": 25000},
+    {"id": 9, "producto": "Mouses", "precio": 3000},
+    {"id": 10, "producto": "Memorias RAM", "precio": 4000},
+    {"id": 11, "producto": "Cable HDMI", "precio": 400},
+    {"id": 12, "producto": "Coollers", "precio": 1000},
+    {"id": 13, "producto": "Mouse pads", "precio": 2200},
+    {"id": 14, "producto": "Antenas WIFI", "precio": 400},
+    {"id": 15, "producto": "Fuente de potencia", "precio": 5300},
+    {"id": 16, "producto": "Parlantes", "precio": 3800},
+    {"id": 17, "producto": "Pasta termica", "precio": 200},
+    {"id": 18, "producto": "Sillas gamer", "precio": 35000},
+    {"id": 19, "producto": "Micofonos", "precio": 12000},
+    {"id": 20, "producto": "Cable VGA", "precio": 250}
+]
